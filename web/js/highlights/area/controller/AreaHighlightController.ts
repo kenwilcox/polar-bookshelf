@@ -86,6 +86,11 @@ export class AreaHighlightController {
         pageMeta.areaHighlights[areaHighlight.id] = areaHighlight;
 
 
+        // FIXME vars we have here:
+        // pageNum
+        // areaHighlightRect (areaHighlight.rect)
+        // areaHighlight
+
 
     }
     private onDeleteAreaHighlight(triggerEvent: TriggerEvent) {
